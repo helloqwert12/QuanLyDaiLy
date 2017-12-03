@@ -6,7 +6,94 @@
         xmlns:local="clr-namespace:QuanLyDaiLy"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <StackPanel 
+        Orientation="Horizontal">
+        <StackPanel Orientation="Vertical" Width="150">
+            <Expander Header="QUẢN LÝ">
+                <ListView>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>TIẾP NHẬN ĐẠI LÝ</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ MẶT HÀNG</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ LOẠI ĐẠI LÝ</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ QUẬN</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ ĐƠN VỊ TÍNH</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ PHIẾU THU</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ PHIẾU XUẤT</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </Expander>
+
+            <Expander Header="TRA CỨU">
+                <ListView>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>TRA CỨU ĐẠI LÝ</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </Expander>
+
+            <Expander Header="BÁO CÁO">
+                <ListView>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>BÁO CÁO DOANH SỐ</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>QUẢN LÝ CÔNG NỢ</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </Expander>
+
+            <Expander Header="QUY ĐỊNH">
+                <ListView>
+                    <ListViewItem>
+                        <StackPanel Orientation="Horizontal">
+                            <Image />
+                            <TextBlock>THAY ĐỔI QUY ĐỊNH</TextBlock>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </Expander>
+        </StackPanel>
+    </StackPanel>
 </Window>
